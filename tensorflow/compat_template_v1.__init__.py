@@ -18,8 +18,9 @@ import os as _os
 import sys as _sys
 import typing as _typing
 
-from tensorflow.python.tools import module_util as _module_util
+
 from tensorflow.python.util.lazy_loader import LazyLoader as _LazyLoader
+from tensorflow.python.tools import module_util as _module_util
 
 # pylint: disable=g-bad-import-order
 
